@@ -5,9 +5,7 @@ import os
 import random
 import shutil
 import subprocess
-import sys
 
-from numpy import full
 
 verbosity = 1
 base_dir = "."
@@ -157,7 +155,8 @@ def main():
         help="specify an alternative to the current directory to use as a base",
     )
     subparsers = parser.add_subparsers(
-        title="commands", help="Command help available: use -h after command."
+        title="commands", help="Command help available: use -h after command.",
+        required=True
     )
 
 
