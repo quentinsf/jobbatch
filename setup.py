@@ -15,18 +15,18 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="qbatch",
+    name="jobbatch",
     python_requires='>3.4',
     version=version,
-    description="QBatch: a utility for splitting tasks up into batches",
+    description="jobbatch: a utility for splitting tasks up into batches",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Quentin Stafford-Fraser",
-    url="https://github.com/quentinsf/qbatch",
+    url="https://github.com/quentinsf/jobbatch",
     license="GNU GPL 2",
-    packages=["qbatch"],
+    packages=["jobbatch"],
     entry_points={
-        'console_scripts': ['qbatch=qbatch:main'],
+        'console_scripts': ['jobbatch=jobbatch:main'],
     }
 )
 
