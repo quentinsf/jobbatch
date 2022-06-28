@@ -2,8 +2,6 @@
 
 ## Background
 
-**This is a design plan: not actually written yet!**
-
 JobBatch is a simple tool for queuing up batches of commands and running N of them at a time.
 
 The initial use case was scheduling software updates on a large number of remote devices, without getting all the support queries back in the same day! So we wanted to update 100 devices each night.  But you might want to send 10 emails per minute, transcode 5 videos per hour, or whatever.  You can set up a cron job or similar to run `jobbatch`, and it will split the tasks into these chunks for you and run them. 
