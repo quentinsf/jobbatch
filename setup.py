@@ -7,7 +7,7 @@ if sys.version_info[0] == 2:
 
 major_version = 1
 minor_version = 0
-build_version = 0
+build_version = 1
 
 version = str(major_version) + "." + str(minor_version) + "." + str(build_version)
 
