@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jobbatch"
-version = "1.0.3"
+version = "1.0.5"
 authors = [
     "Quentin Stafford-Fraser <quentin@pobox.com>"
 ]
@@ -9,9 +9,6 @@ readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
-
-[console_scripts]
-jobbatch = "jobbatch:main"
 
 [tool.poetry.scripts]
 jobbatch = "jobbatch:main"
